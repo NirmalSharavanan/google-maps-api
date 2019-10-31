@@ -5,7 +5,7 @@ import time
 import pandas as pd
 
 # Define the API Key.
-API_KEY = 'AIzaSyDp1rDTLI7gAaadBfGnCdapcGeCkcNoD6c'
+API_KEY = 'Your_API_Key_Goes_Here'
 
 # Define the Client
 gmaps = googlemaps.Client(key=API_KEY)
