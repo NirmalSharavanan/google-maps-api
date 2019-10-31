@@ -48,6 +48,7 @@ def extract_places():
         stored_results.append(placeList)
     return stored_results
 
+#Loop for next page
 places_result = gmaps.places_nearby(**params)
 if 'next_page_token' in places_result:
     while 'next_page_token' in places_result:
