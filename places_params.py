@@ -3,7 +3,7 @@ import googlemaps
 import pprint
 
 # Define the API Key.
-API_KEY = ''
+API_KEY = 'Your_API_Key_Goes_Here'
 
 # Define the Clientgeocode_result
 gmaps = googlemaps.Client(key=API_KEY)
